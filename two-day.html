@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <base href="https://www.w3schools.com/" target="_blank">
+    <style>
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: rgb(93, 6, 255);
+        background-color: aquamarine;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a {
+        padding: 10px;
+        background-color: rgb(121, 69, 6);
+        color: black;
+        border-radius: 8px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </p>
+    <a href="index.html" target="_top">Click me</a>
+
+    <!-- Underlist have three value disc , circle and square -->
+    <h3>Underlist</h3>
+    <ul type="square">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>E</li>
+      <li>F</li>
+    </ul>
+
+    <!-- Orderlist have four value 1 , A , a , I , i -->
+    <h3>Orderlist</h3>
+    <ol type="1">
+      <li>Nika</li>
+      <li>Nika</li>
+      <li>Nika</li>
+      <li>Nika</li>
+      <li>Nika</li>
+      <li>Nika</li>
+    </ol>
+
+    <h3>Defined List</h3>
+    <dl>
+      <dt>Sport</dt>
+      <dd>- black hot drink</dd>
+      <dd>- black hot drink</dd>
+      <dd>- black hot drink</dd>
+      <dt>Computer</dt>
+      <dd>- black hot drink</dd>
+      <dd>- black hot drink</dd>
+      <dt>Game</dt>
+      <dd>- white cold drink</dd>
+      <dd>- white cold drink</dd>
+      <dd>- white cold drink</dd>
+      <dt>Book</dt>
+      <dd>- white cold drink</dd>
+      <dd>- white cold drink</dd>
+      <dd>- white cold drink</dd>
+    </dl>
+
+    <!-- Nesting List -->
+    <h3>Nesting List</h3>
+    <ul>
+      <li>Coffee</li>
+      <li>Mike</li>
+      <li>Dark</li>
+      <ol>
+        <li>Tea</li>
+        <li>Coke</li>
+        <li>Bear</li>
+      </ol>
+    </ul>
+    
+    <!-- Nesting List -->
+    <h3>Underlist in Underlist</h3>
+    <ul>
+      <li>Y</li>
+      <li>C</li>
+      <li>O</li>
+      <ul>
+        <li>U</li>
+        <li>I</li>
+        <li>P</li>
+        <ul>
+          <li>U</li>
+          <li>I</li>
+          <li>P</li>
+        </ul>
+      </ul>
+    </ul>
+
+    <!-- Nesting List -->
+    <h3>Oderlist in Oderlist</h3>
+    <ol>
+      <li>Tea</li>
+      <li>Coke</li>
+      <li>Bear</li>
+      <ol>
+        <li>Tea</li>
+        <li>Coke</li>
+        <li>Bear</li>
+        <ol>
+          <li>Tea</li>
+          <li>Coke</li>
+          <li>Bear</li>
+        </ol>
+      </ol>
+    </ol>
+
+    <!-- Table  -->
+    <h3>Tabel Basic</h3>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>GENDER</th>
+        <th>SALARY</th>
+        <th>POSITION</th>
+        <th>OTHER</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Bich Samrouth</td>
+        <td>Male</td>
+        <td>9000</td>
+        <td>Front End</td>
+        <td>I Love you !!!</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Bich Samrouth</td>
+        <td>Male</td>
+        <td>9000</td>
+        <td>Front End</td>
+        <td>I Love you !!!</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Bich Samrouth</td>
+        <td>Male</td>
+        <td>9000</td>
+        <td>Front End</td>
+        <td>I Love you !!!</td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td>Bich Samrouth</td>
+        <td>Male</td>
+        <td>9000</td>
+        <td>Front End</td>
+        <td>I Love you !!!</td>
+      </tr>
+      <tr>
+        <td>005</td>
+        <td>Bich Samrouth</td>
+        <td>Male</td>
+        <td>9000</td>
+        <td>Front End</td>
+        <td>I Love you !!!</td>
+      </tr>
+    </table>
+    <!-- Semantac Tag of Table -->
+    <h3>Fllow Semantic tag</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        padding: 10px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create Form</h1>
+    <h3>Input Elements in Form</h3>
+    <p>Use the below to edit your information</p>
+    <!--
+    <form action="submit">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required />
+
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+
+      <br>
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        maxlength="12"
+        placeholder="Enter your password"
+        required
+      />
+
+      <br>
+      <label>Gender:</label>
+      <input type="checkbox" id="male" /> <label for="male">Male</label>
+      <input type="checkbox" id="female" /> <label for="female">Female</label>
+
+      <br>
+      <label for="number">Number:</label>
+      <input type="number" id="number" name="number" />
+
+      <br>
+      <label>Radio:</label>
+      <input type="radio" id="a" name="a" /> <label for="a">A</label>
+      <input type="radio" id="b" name="a" /> <label for="b">B</label>
+
+      <br>
+      <label for="color">Color:</label>
+      <input type="color" id="color" />
+
+      <br>
+      <label for="file-pdf">Accept File PDF or DOCX:</label>
+      <input
+        type="file"
+        id="file-pdf"
+        accept="application/msword, application/pdf, image/png"
+      />
+
+      <br>
+      <label for="file-image">Accept File Image:</label>
+      <input type="file" id="file-image" accept="image/png, image/jpeg" />
+
+      <br>
+      <label for="text-disabled">Hidden:</label>
+      <input type="text" id="text-disabled" disabled placeholder="Text" />
+
+      <br>
+      <label for="range">Range:</label>
+      <input type="range" id="range" />
+
+      <br>
+      <label for="time">Time:</label>
+      <input type="time" id="time" />
+
+      <br>
+      <label for="url">URL:</label>
+      <input type="url" id="url" />
+
+      <br>
+      <label for="tel">Phone Number:</label>
+      <input type="tel" id="tel" />
+
+      <br>
+      <label for="search">Search:</label>
+      <input type="search" id="search" />
+
+      <br>
+      <label for="month">Month:</label>
+      <input type="month" id="month" />
+      
+      <br>
+      <label for="date">Date:</label>
+      <input type="date" id="date" />
+
+      <br>
+      <label for="datetime">Date Time:</label>
+      <input type="datetime-local" id="datetime" />
+
+      <input type="submit" value="Submit" />
+
+    -->
+
+      <!-- Select -->
+      <label for="color">Select</label>
+      <select name="color" id="color">
+        <option value="A">Apple</option>
+        <option value="A">Orange</option>
+        <option value="A">Blue</option>
+      </select>
+      <br>
+
+      <!-- Textarea -->
+      <label for="view">Textarea</label>
+      <br>
+      <textarea id="view" name="view" rows="3" cols="25" placeholder="Enter your description"></textarea>
+      <br>
+      <!-- Data List -->
+      <label for="browsers">Data List</label>
+      <input list="browsers">
+      <datalist id="browsers">
+        <option value="I">I</option>
+        <option value="AM">AM</option>
+        <option value="YOU">YOU</option>
+        <option value="ME">ME</option>
+        <option value="WE">WE</option>
+        <option value="HER">HER</option>
+        <option value="SHE">SHE</option>
+      </datalist>
+
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+
+      <!-- Image Tag -->
+      <figure>
+        <img src="./image/image-01.webp" width="300px" alt="not found">
+        <figcaption>I Love You But Love bl</figcaption>
+      </figure>
+
+    </form>
+  </body>
+</html>
