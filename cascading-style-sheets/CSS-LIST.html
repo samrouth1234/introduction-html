@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS LIST</title>
     <style>
-      
       ul .circle-list {
         list-style-type: circle;
       }
@@ -61,6 +60,20 @@
       }
       ol .lower-roman-list {
         list-style-type: lower-roman;
+      }
+
+      /* List Style Image */
+      ul .list-style-image {
+        list-style-image: url("../image/gitlab.png");
+      }
+
+      /* List Style Position Outside */
+      ul .list-style-outside {
+        list-style-position: outside;
+      }
+
+      ul .list-style-inside{
+        list-style-position: inside;
       }
 
       /* container style */
@@ -216,17 +229,34 @@
       <section>
         <h1>List Style Image</h1>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Coca Cola</li>
+          <li class="list-style-image">Coffee</li>
+          <li class="list-style-image">Tea</li>
+          <li class="list-style-image">Coca Cola</li>
         </ul>
       </section>
       <!-- List Style Position -->
       <section>
         <h1>List Style Position</h1>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Coaa Cola</li>
+        <ul>
+          <p>Outside</p>
+          <li class="list-style-outside">
+            Coffee - A brewed drink prepared from roasted coffee beans
+          </li>
+          <li class="list-style-outside">
+            Which are the seeds of berries from the Coffea plant
+          </li>
+          <li class="list-style-outside">Coaa Cola</li>
+        </ul>
+        <ul>
+          <p>Inside</p>
+          <li class="list-style-inside">
+            Coffee - A brewed drink prepared from roasted coffee beans
+          </li>
+          <li class="list-style-inside">
+            Which are the seeds of berries from the Coffea plant
+          </li>
+          <li class="list-style-inside">Coaa Cola</li>
+        </ul>
       </section>
     </section>
   </body>
