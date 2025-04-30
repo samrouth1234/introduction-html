@@ -1,0 +1,32 @@
+.link-demo{
+  padding: 5px 10px;
+  border: 1px solid blueviolet;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+/* Unvisited link */
+#visted:link {
+  color: red;
+}
+
+/* Visited Link */
+#visted:visited{
+  color: black;
+}
+
+/* Mouse over link */
+#visted:hover{
+  color: rgb(255, 255, 255);
+  background-color: red;
+  font-family: fantasy;
+  cursor: progress;
+}
+
+/* Selected link */
+#visted:active{
+  color: rgb(7, 90, 214);
+  background-color: brown;
+}
