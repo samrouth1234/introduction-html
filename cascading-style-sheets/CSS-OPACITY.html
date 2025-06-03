@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opacity Transparency</title>
+    <style>
+      .card-container {
+        width: 200px;
+        border: 2px solid gray;
+        padding: 10px;
+        border-radius: 8px;
+        opacity: 0.75;
+      }
+
+      .card-container:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      .card-image {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 180px;
+      }
+
+      .buy-now {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card-container">
+      <section>
+        <img src="../image/image-02.jpg" alt="not-found" class="card-image" />
+      </section>
+      <h2>BMW</h2>
+      <p>New car the popular in the world</p>
+      <section class="buy-now">
+        <span>$ 2000</span>
+        <button type="button">Buy now</button>
+      </section>
+    </section>
+  </body>
+</html>

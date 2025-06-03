@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FLEX BOX</title>
+    <style>
+      /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ reference resuource */
+      .card-container {
+        width: 200px;
+        border: 2px solid gray;
+        padding: 10px;
+        border-radius: 8px;
+        opacity: 0.75;
+      }
+
+      .card-container:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      .card-image {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 180px;
+      }
+
+      .buy-now {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+      }
+
+      /* Flex Box */
+      .box-container{
+        display: flex;
+        gap: 10px;
+        /* display:flex */
+        /* flex-direction: row-reverse; row ; column-reverse ; column */ 
+        /* flex-wrap: wrap-reverse; nowrap ; wrap*/
+        /* flex-flow: row-reverse wrap; */
+      }
+
+      .box{
+        display: flex;
+        /* justify-content: flex-start; center; flex-end; space-between; space-around; space-evenly */
+      }
+
+      .box-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- <div class="box-container">
+      <section class="card-container">
+        <section>
+          <img src="../image/image-02.jpg" alt="not-found" class="card-image" />
+        </section>
+        <h2>BMW 01</h2>
+        <p>New car the popular in the world</p>
+        <section class="buy-now">
+          <span>$ 2000</span>
+          <button type="button">Buy now</button>
+        </section>
+      </section>
+      <section class="card-container">
+        <section>
+          <img src="../image/image-02.jpg" alt="not-found" class="card-image" />
+        </section>
+        <h2>BMW 02</h2>
+        <p>New car the popular in the world</p>
+        <section class="buy-now">
+          <span>$ 2000</span>
+          <button type="button">Buy now</button>
+        </section>
+      </section>
+      <section class="card-container">
+        <section>
+          <img src="../image/image-02.jpg" alt="not-found" class="card-image" />
+        </section>
+        <h2>BMW 03</h2>
+        <p>New car the popular in the world</p>
+        <section class="buy-now">
+          <span>$ 2000</span>
+          <button type="button">Buy now</button>
+        </section>
+      </section>
+      <section class="card-container">
+        <section>
+          <img src="../image/image-02.jpg" alt="not-found" class="card-image" />
+        </section>
+        <h2>BMW 04</h2>
+        <p>New car the popular in the world</p>
+        <section class="buy-now">
+          <span>$ 2000</span>
+          <button type="button">Buy now</button>
+        </section>
+      </section>
+    </div> -->
+
+    <div class="box">
+      <div class="box-item">1</div>
+      <div class="box-item">2</div>
+      <div class="box-item">3</div>
+      <div class="box-item">4</div>
+      <div class="box-item">5</div>
+      <div class="box-item">6</div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS COMBINATORS</title>
+    <style>
+      /* Descendant combinator */
+      /* div .desendant {
+        color: red;
+      } */
+
+      /* Child combinator */
+      /* div > section {
+        background-color: blue;
+      } */
+
+      /* Sibling combinator */
+      /* div + p {
+        background-color: aquamarine;
+      } */
+      
+      /* Subsequent-sibling Combinator */
+      /* div ~ h1 {
+        background-color: darkblue;
+        color: white;
+        width: 50%;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <h2>Descendant combinator</h2>
+    <div>
+      <p>This paragraph 1</p>
+      <p>This paragraph 2</p>
+      <p>This paragraph 3</p>
+      <section><p>This paragraph 4</p></section>
+    </div> 
+    -->
+
+    <h2>Child combinator</h2>
+    <div>
+      <h1>This paragraph 1</h1>
+      <p>This paragraph 2</p>
+      <section>This is a section tags</section>
+      <p>This paragraph 3</p>
+      <p>This paragraph 4</p>
+      <h1><p>This is a paragraph 5</p></h1>
+    </div>
+    <h1>This a child 1</h1>
+    <p>This a child 2</p>
+    <p>This a child 3</p>
+  </body>
+</html>

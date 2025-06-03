@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM CSS</title>
+    <style>
+      .form-container {
+        width: 30%;
+        border: 1px solid gray;
+        padding: 20px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+
+      input[type="number"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+
+      .create-stu {
+        padding: 10px;
+        background-color: aquamarine;
+        border: 0px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .create-stu:hover {
+        background-color: gainsboro;
+        color: aquamarine;
+      }
+
+      #gender {
+        padding: 8px;
+        margin: 5px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Create Student</h2>
+    <form class="form-container">
+      <!-- id name gender age description -->
+      <label for="id">ID</label> <br />
+      <input type="number" name="id" id="id" />
+      <br />
+      <label for="name">NAME</label><br />
+      <input type="text" name="name" id="name" />
+      <br />
+      <label for="gender">GENDER</label>
+      <br />
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="famale">Famale</option>
+        <option value="other">Other</option>
+      </select>
+      <br />
+      <label for="age">AGE</label>
+      <br />
+      <input type="number" name="age" id="age" />
+      <br />
+      <label for="description">DESCRIPTION</label>
+      <br />
+      <input type="text" name="description" id="description" />
+
+      <button type="submit" class="create-stu">Create Student</button>
+    </form>
+  </body>
+</html>
