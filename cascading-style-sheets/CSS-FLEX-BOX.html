@@ -33,30 +33,78 @@
       }
 
       /* Flex Box */
-      .box-container{
+      .box-container {
         display: flex;
         gap: 10px;
         /* display:flex */
-        /* flex-direction: row-reverse; row ; column-reverse ; column */ 
+        /* flex-direction: row-reverse; row ; column-reverse ; column */
         /* flex-wrap: wrap-reverse; nowrap ; wrap*/
         /* flex-flow: row-reverse wrap; */
       }
 
-      .box{
+      .box {
         display: flex;
         /* justify-content: flex-start; center; flex-end; space-between; space-around; space-evenly */
+        background-color: bisque;
+        align-items: baseline;
+        flex-direction: row;
+        /* row-gap: 5px; */
+        column-gap: 10px;
+        height: 700px;
+        width: 800px;
       }
 
-      .box-item{
+      .box1 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .box2 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+      }
+
+      .box-item {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10px;
+        /* margin: 10px; */
         width: 100px;
         height: 100px;
         background-color: aqua;
       }
 
+      .box-item-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 100px;
+        height: 50px;
+        background-color: aqua;
+      }
+
+      .box-item-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 100px;
+        height: 60px;
+        background-color: blueviolet;
+      }
+
+      .box-item-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 100px;
+        height: 20px;
+        background-color: red;
+      }
     </style>
   </head>
   <body>
@@ -108,15 +156,23 @@
       </section>
     </div> 
     -->
-
     <div class="box">
-      <div class="box-item">1</div>
-      <div class="box-item">2</div>
-      <div class="box-item">3</div>
-      <div class="box-item">4</div>
-      <div class="box-item">5</div>
-      <div class="box-item">6</div>
+      <div class="box1">
+        <div class="box-item">1</div>
+        <div class="box-item">2</div>
+        <div class="box-item">3</div>
+        <div class="box-item">4</div>
+        <div class="box-item">5</div>
+        <div class="box-item">6</div>
+      </div>
+      <!-- <div class="box2">
+        <div class="box-item">1</div>
+        <div class="box-item">2</div>
+        <div class="box-item">3</div>
+        <div class="box-item">4</div>
+        <div class="box-item">5</div>
+        <div class="box-item">6</div>
+      </div> -->
     </div>
-
   </body>
 </html>
